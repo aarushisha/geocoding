@@ -1,0 +1,30 @@
+{
+  "name": "geocoding",
+  "version": "1.0.0",
+  "description": "Simple application for reverse geo-coding",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "compile": "./node_modules/.bin/babel client --out-dir public --presets @babel/preset-react --source-maps inline --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aarushisha/geocoding.git"
+  },
+  "author": "Aarushi Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aarushisha/geocoding/issues"
+  },
+  "homepage": "https://github.com/aarushisha/geocoding#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
